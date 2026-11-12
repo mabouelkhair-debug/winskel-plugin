@@ -1,0 +1,12 @@
+{
+  "name": "winskel",
+  "owner": { "name": "Winskel", "email": "ahmed@winskel.com" },
+  "metadata": { "description": "Winskel's official plugins." },
+  "plugins": [
+    {
+      "name": "winskel",
+      "source": "./",
+      "description": "Winskel Space: one shared memory for your team and your AI agents."
+    }
+  ]
+}

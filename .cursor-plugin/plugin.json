@@ -1,0 +1,11 @@
+{
+  "name": "winskel",
+  "version": "1.0.0",
+  "description": "Winskel Space: one shared memory for your team and your AI agents. Cursor reads and writes the Space's files, decisions, handoffs and messages, so every teammate's AI works from the same plan before anyone opens a PR.",
+  "author": { "name": "Winskel", "email": "ahmed@winskel.com" },
+  "homepage": "https://winskel.com",
+  "keywords": ["team", "shared memory", "handoffs", "decisions", "multi agent", "mcp"],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
+}

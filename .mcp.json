@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "winskel": {
+      "type": "http",
+      "url": "https://space.winskel.com/api/mcp"
+    }
+  }
+}

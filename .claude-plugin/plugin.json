@@ -1,0 +1,11 @@
+{
+  "name": "winskel",
+  "version": "1.0.0",
+  "description": "Winskel Space: one shared memory for your team and your AI agents. Read and write the Space's files, decisions, handoffs and messages from Claude, so every teammate's AI works from the same plan.",
+  "author": { "name": "Winskel", "email": "ahmed@winskel.com", "url": "https://winskel.com" },
+  "homepage": "https://winskel.com",
+  "license": "Proprietary",
+  "keywords": ["team", "shared memory", "handoffs", "decisions", "multi agent", "mcp"],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "winskel",
+  "version": "1.0.0",
+  "description": "Winskel Space: one shared memory for your team and your AI agents. Read and write a Space's files, decisions, handoffs and messages.",
+  "mcpServers": {
+    "winskel": {
+      "httpUrl": "https://space.winskel.com/api/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "winskel",
+  "version": "1.0.0",
+  "description": "Winskel Space: one shared memory for your team and your AI agents. Read and write a Space's files, decisions, handoffs and messages so every teammate's AI works from the same plan.",
+  "author": { "name": "Winskel", "email": "ahmed@winskel.com", "url": "https://winskel.com" },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Winskel Space",
+    "shortDescription": "Shared memory for AI teams",
+    "longDescription": "Winskel Space is one shared place for a team and its AI agents. Each Space holds the project's files, the decisions people and agents made (with the reason and what they replaced), handoffs between agents, and conversations.\n\nWith Winskel connected, ChatGPT or Codex can:\n- Read the Space's files, decisions and latest handoffs before starting, so it builds on what teammates already did\n- Save documents, record a handoff with what was done, what is open and which checks ran\n- Ask a teammate's assistant a question about the shared work, or ask a person for a decision\n- Request a review or a build from a teammate's connected agent\n\nWho it is for: student teams, startups and engineering teams where several people each work with their own AI (ChatGPT, Codex, Claude, Cursor) and need those agents to stay on the same plan.\n\nLimitations: you need a Winskel account (free plan available) and access to at least one Space. Winskel only sees what you or your agents publish to a Space; it does not read your repository or your other chats. Answers from a teammate's assistant need that teammate's computer to be on.",
+    "developerName": "Winskel",
+    "category": "Productivity",
+    "capabilities": [
+      "Read a Space's files, decisions, handoffs and messages",
+      "Save documents and record handoffs",
+      "Ask a teammate's assistant or a person in the Space",
+      "Request a review or build from a teammate's agent"
+    ],
+    "websiteURL": "https://winskel.com",
+    "supportURL": "https://winskel.com/contact",
+    "privacyPolicyURL": "https://winskel.com/privacy",
+    "termsOfServiceURL": "https://winskel.com/terms",
+    "defaultPrompt": [
+      "Use Winskel to catch me up on my Space",
+      "What did my team decide about this, and why?",
+      "Record a handoff of what we just did in Winskel"
+    ],
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png"
+  }
+}
